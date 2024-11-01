@@ -9,4 +9,5 @@ Installation
 
 ::
 
-    pip install latitude
+    cd Dataplat-SDK
+    pip install .
