@@ -1,0 +1,61 @@
+# This file exists so you can easily regenerate your project.
+#
+# `cookiepatcher` is a convenient shim around `cookiecutter`
+# for regenerating projects (it will generate a .cookiecutterrc
+# automatically for any template). To use it:
+#
+#    pip install cookiepatcher
+#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary dataplat-sdk
+#
+# See:
+#    https://pypi.org/project/cookiepatcher
+#
+# Alternatively, you can run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=dataplat-sdk/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+default_context:
+    c_extension_optional: "no"
+    c_extension_support: "no"
+    codacy: "no"
+    codacy_projectid: "[Get ID from https://app.codacy.com/gh/latitudedigital/dataplat-sdk/settings]"
+    codeclimate: "no"
+    codecov: "no"
+    command_line_interface: "no"
+    command_line_interface_bin_name: "latitude"
+    coveralls: "no"
+    distribution_name: "latitude"
+    email: "nicolas@zedia.com.br"
+    formatter_quote_style: "double"
+    full_name: "Nicolas Pires"
+    function_name: "compute"
+    github_actions: "no"
+    github_actions_osx: "no"
+    github_actions_windows: "no"
+    license: "no"
+    module_name: "core"
+    package_name: "latitude"
+    pre_commit: "yes"
+    project_name: "latitude"
+    project_short_description: "Dataplat SDK for Data Scientists"
+    pypi_badge: "no"
+    pypi_disable_upload: "yes"
+    release_date: "2024-11-01"
+    repo_hosting: "other domain not listed"
+    repo_hosting_domain: "bitbucket.org"
+    repo_main_branch: "master"
+    repo_name: "dataplat-sdk"
+    repo_username: "latitudedigital"
+    scrutinizer: "no"
+    setup_py_uses_setuptools_scm: "no"
+    sphinx_docs: "no"
+    sphinx_docs_hosting: "https://dataplat-sdk.readthedocs.io/"
+    sphinx_doctest: "no"
+    sphinx_theme: "python-docs-theme"
+    test_matrix_separate_coverage: "no"
+    tests_inside_package: "no"
+    version: "0.0.1"
+    version_manager: "bump2version"
+    website: "https://latitude.digital"
+    year_from: "2024"
+    year_to: "2024"
